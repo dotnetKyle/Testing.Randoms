@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<LangVersion>latest</LangVersion>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Authors>Kyle Burrows</Authors>
+	<Company></Company>
+	<Description>A unit testing library to help create random values for testing.</Description>
+	<Copyright>2022 Kyle Burrows</Copyright>
+	<RepositoryUrl>https://github.com/dotnetKyle/Testing.Randoms</RepositoryUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageTags>Unit Tests;Random;Random Generate;Randomly Generate;Random Generation</PackageTags>
+	<PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
